@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Stack;
 
 public class DoubleLinkedList {
@@ -114,6 +113,23 @@ public class DoubleLinkedList {
         }
 
         return summary;
+    }
+
+    /**
+     *
+     * @return true if the list has been modified, false otherwise
+     */
+    public boolean putBackAll(){
+        if(deleted.isEmpty()){ return false ;}
+        while(!deleted.isEmpty()){
+            this.putBackLast();
+        }
+        return true;
+    }
+
+
+    public boolean areThereDeletedElements(){
+        return !deleted.isEmpty();
     }
 
     /**

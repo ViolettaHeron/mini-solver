@@ -94,11 +94,7 @@ public class DoubleLinkedListTests {
         } catch (Exception e) {
             fail(e.getMessage());
         }
-        dll.putBackLast();
-        dll.putBackLast();
-        dll.putBackLast();
-        dll.putBackLast();
-        dll.putBackLast();
+        dll.putBackAll();
 
         assertEquals(1, dll.getFirstValue(), "1 should be the first element");
         assertTrue(dll.toArray().contains(1));
@@ -106,5 +102,18 @@ public class DoubleLinkedListTests {
         assertTrue(dll.toArray().contains(3));
         assertTrue(dll.toArray().contains(4));
         assertTrue(dll.toArray().contains(5));
+    }
+
+    @Test
+    public void testIfThereAreSomeDeletedElements(){
+        assertFalse(dll.areThereDeletedElements());
+
+        try {
+            dll.removeElement(1);
+        } catch (Exception e) {
+            fail(e.getMessage());
+        }
+
+        assertTrue(dll.areThereDeletedElements());
     }
 }
