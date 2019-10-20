@@ -1,10 +1,24 @@
 import java.util.ArrayDeque;
+import java.util.ArrayList;
 
 public class Propagation {
     ArrayDeque<Variable> q;
+    ArrayList<Contrainte> consts;
+    ArrayList<Variable> vars;
 
     Propagation() {
-        q = new ArrayDeque();
+        q = new ArrayDeque<>();
+        consts = new ArrayList<>();
+        vars = new ArrayList<>();
+    }
+
+    public void add_variable(Variable v){
+        v.setPropagation(this);
+        vars.add(v);
+    }
+
+    public void add_constraint(Contrainte c){
+        consts.add(c);
     }
 
     public void add_to_queue(Variable x) {
@@ -26,6 +40,17 @@ public class Propagation {
         // fin pour
         // x->reset_delta();
         // fn tant que
+
+        while(!q.isEmpty()){
+            Variable x = pick_in_queue();
+            for(Contrainte c:consts){
+                boolean ret=c.filter_from(x);
+                if(!ret) {
+                    break;
+                }
+            }
+            x.reset_delta();
+        }
     }
 }
  

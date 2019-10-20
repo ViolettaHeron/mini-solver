@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a580a910-aaa1-46f5-bb88-f9ecb3dcef6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Contrainte.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Propagation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Variable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AC3Contrainte.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ContrainteTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/VariableTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Contrainte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Contrainte.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/DoubleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DoubleLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DoubleLinkedListTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DoubleLinkedListTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Propagation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Propagation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Variable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Variable.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,11 +36,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/DoubleLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+            <state relative-caret-position="2176">
+              <caret line="134" column="45" selection-start-line="134" selection-start-column="45" selection-end-line="134" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#210#211#0" expanded="true" />
+                <element signature="e#3263#3264#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -47,8 +49,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/DoubleLinkedListTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1887">
-              <caret line="114" column="9" selection-start-line="114" selection-start-column="9" selection-end-line="114" selection-end-column="9" />
+            <state relative-caret-position="85">
+              <caret line="8" selection-start-line="8" selection-end-line="10" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -59,12 +61,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Variable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+            <state relative-caret-position="459">
+              <caret line="29" column="76" selection-start-line="29" selection-start-column="76" selection-end-line="29" selection-end-column="76" />
               <folding>
-                <element signature="e#406#407#0" expanded="true" />
-                <element signature="e#1144#1145#0" expanded="true" />
-                <element signature="e#1200#1201#0" expanded="true" />
+                <element signature="e#571#572#0" expanded="true" />
+                <element signature="e#601#602#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -73,17 +74,63 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Propagation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+            <state relative-caret-position="221">
+              <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Contrainte.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+              <folding>
+                <element signature="e#618#619#0" expanded="true" />
+                <element signature="e#647#648#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ContrainteTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Contrainte.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/VariableTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="63" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
+            <state relative-caret-position="172">
+              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#282#283#0" expanded="true" />
+                <element signature="e#342#343#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/AC3Contrainte.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+              <folding>
+                <element signature="e#99#100#0" expanded="true" />
+                <element signature="e#126#127#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -110,11 +157,14 @@
       <list>
         <option value="$PROJECT_DIR$/.idea/vcs.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/main/java/DoubleLinkedList.java" />
         <option value="$PROJECT_DIR$/src/test/java/DoubleLinkedListTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/Propagation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Variable.java" />
         <option value="$PROJECT_DIR$/src/main/java/Contrainte.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AC3Contrainte.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DoubleLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ContrainteTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/VariableTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Variable.java" />
       </list>
     </option>
   </component>
@@ -129,8 +179,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -152,13 +202,13 @@
               <item name="MiniSolver" type="b2602c69:ProjectViewProjectNode" />
               <item name="MiniSolver" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MiniSolver" type="b2602c69:ProjectViewProjectNode" />
               <item name="MiniSolver" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -170,7 +220,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570984036495" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571056593205" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -257,7 +307,10 @@
       <workItem from="1569323696548" duration="9923000" />
       <workItem from="1570130642661" duration="589000" />
       <workItem from="1570957215256" duration="3405000" />
-      <workItem from="1570983182204" duration="793000" />
+      <workItem from="1570983182204" duration="2810000" />
+      <workItem from="1570994188788" duration="3693000" />
+      <workItem from="1571054706227" duration="1920000" />
+      <workItem from="1571580882551" duration="260000" />
     </task>
     <task id="LOCAL-00001" summary="double linked list with circular referencing, removal and putting back elements">
       <created>1569342396401</created>
@@ -266,62 +319,77 @@
       <option name="project" value="LOCAL" />
       <updated>1569342396420</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="structure for propagation, constraints and variables + updated dll in consequences of needs">
+      <created>1570984182133</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1570984182133</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DoubleLinkedListTests - 2019.09.24 at 18h 12m 36s.xml">
-      <configuration name="DoubleLinkedListTests" configurationId="JUnit" />
+    <history-entry file="All_in_MiniSolver - 2019.10.13 at 22h 17m 21s.xml">
+      <configuration name="All in MiniSolver" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DoubleLinkedListTests - 2019.09.24 at 18h 12m 57s.xml">
-      <configuration name="DoubleLinkedListTests" configurationId="JUnit" />
+    <history-entry file="All_in_MiniSolver - 2019.10.13 at 22h 17m 51s.xml">
+      <configuration name="All in MiniSolver" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DoubleLinkedListTests - 2019.09.24 at 18h 13m 34s.xml">
-      <configuration name="DoubleLinkedListTests" configurationId="JUnit" />
+    <history-entry file="All_in_MiniSolver - 2019.10.13 at 22h 18m 41s.xml">
+      <configuration name="All in MiniSolver" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DoubleLinkedListTests - 2019.09.24 at 18h 13m 44s.xml">
-      <configuration name="DoubleLinkedListTests" configurationId="JUnit" />
+    <history-entry file="All_in_MiniSolver - 2019.10.13 at 22h 20m 09s.xml">
+      <configuration name="All in MiniSolver" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DoubleLinkedListTests - 2019.09.24 at 18h 17m 55s.xml">
-      <configuration name="DoubleLinkedListTests" configurationId="JUnit" />
+    <history-entry file="All_in_MiniSolver - 2019.10.13 at 22h 23m 34s.xml">
+      <configuration name="All in MiniSolver" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DoubleLinkedListTests - 2019.10.13 at 11h 01m 36s.xml">
-      <configuration name="DoubleLinkedListTests" configurationId="JUnit" />
+    <history-entry file="All_in_MiniSolver - 2019.10.13 at 22h 23m 44s.xml">
+      <configuration name="All in MiniSolver" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DoubleLinkedListTests - 2019.10.13 at 11h 02m 18s.xml">
-      <configuration name="DoubleLinkedListTests" configurationId="JUnit" />
+    <history-entry file="All_in_MiniSolver - 2019.10.13 at 22h 23m 56s.xml">
+      <configuration name="All in MiniSolver" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DoubleLinkedListTests - 2019.10.13 at 16h 39m 42s.xml">
-      <configuration name="DoubleLinkedListTests" configurationId="JUnit" />
+    <history-entry file="All_in_MiniSolver - 2019.10.13 at 22h 25m 47s.xml">
+      <configuration name="All in MiniSolver" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DoubleLinkedListTests - 2019.10.13 at 16h 41m 51s.xml">
-      <configuration name="DoubleLinkedListTests" configurationId="JUnit" />
+    <history-entry file="All_in_MiniSolver - 2019.10.14 at 14h 20m 32s.xml">
+      <configuration name="All in MiniSolver" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_MiniSolver - 2019.10.13 at 16h 44m 31s.xml">
+    <history-entry file="All_in_MiniSolver - 2019.10.14 at 14h 31m 57s.xml">
       <configuration name="All in MiniSolver" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14710000" />
+    <option name="totallyTimeSpent" value="22600000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19969743" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20877458" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.4091653" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
@@ -338,6 +406,7 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32980332" />
+      <window_info anchor="right" id="Structure" order="10" weight="0.24962178" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -345,7 +414,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="double linked list with circular referencing, removal and putting back elements" />
-    <option name="LAST_COMMIT_MESSAGE" value="double linked list with circular referencing, removal and putting back elements" />
+    <MESSAGE value="structure for propagation, constraints and variables + updated dll in consequences of needs" />
+    <option name="LAST_COMMIT_MESSAGE" value="structure for propagation, constraints and variables + updated dll in consequences of needs" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
@@ -378,19 +448,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DoubleLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        <state relative-caret-position="2176">
+          <caret line="134" column="45" selection-start-line="134" selection-start-column="45" selection-end-line="134" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#3263#3264#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DoubleLinkedListTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1887">
-          <caret line="114" column="9" selection-start-line="114" selection-start-column="9" selection-end-line="114" selection-end-column="9" />
+        <state relative-caret-position="85">
+          <caret line="8" selection-start-line="8" selection-end-line="10" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -399,27 +469,66 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Variable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        <state relative-caret-position="459">
+          <caret line="29" column="76" selection-start-line="29" selection-start-column="76" selection-end-line="29" selection-end-column="76" />
           <folding>
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#1144#1145#0" expanded="true" />
-            <element signature="e#1200#1201#0" expanded="true" />
+            <element signature="e#571#572#0" expanded="true" />
+            <element signature="e#601#602#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Propagation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        <state relative-caret-position="221">
+          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Contrainte.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="63" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
+        <state relative-caret-position="374">
+          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+          <folding>
+            <element signature="e#618#619#0" expanded="true" />
+            <element signature="e#647#648#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ContrainteTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AC3Contrainte.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding>
+            <element signature="e#99#100#0" expanded="true" />
+            <element signature="e#126#127#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/VariableTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

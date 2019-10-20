@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Stack;
 
 public class DoubleLinkedList {
@@ -103,6 +104,9 @@ public class DoubleLinkedList {
     }
 
     public String toString() {
+        if(first==null){
+            return "empty list";
+        }
         String summary = "";
 
         summary += first.toString();
