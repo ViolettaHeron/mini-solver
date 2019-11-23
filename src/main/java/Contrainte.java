@@ -32,7 +32,7 @@ public abstract class Contrainte {
     public ArrayList<Integer> getSupportInX(int value){
         ArrayList<Integer> support = new ArrayList<>();
         for(int[] cable : table_){
-            if(cable[1] == value){
+            if(cable[1] == value && x_.is_in_domain(cable[0])){
                 support.add(cable[0]);
             }
         }
@@ -42,7 +42,7 @@ public abstract class Contrainte {
     public ArrayList<Integer> getSupportInY(int value){
         ArrayList<Integer> support = new ArrayList<>();
         for(int[] cable : table_){
-            if(cable[0] == value){
+            if(cable[0] == value && y_.is_in_domain(cable[1])){
                 support.add(cable[1]);
             }
         }
