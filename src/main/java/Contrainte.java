@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public abstract class Contrainte {
@@ -26,6 +27,26 @@ public abstract class Contrainte {
 
     public int[][] getTable_() {
         return table_;
+    }
+
+    public ArrayList<Integer> getSupportInX(int value){
+        ArrayList<Integer> support = new ArrayList<>();
+        for(int[] cable : table_){
+            if(cable[1] == value){
+                support.add(cable[0]);
+            }
+        }
+        return support;
+    }
+
+    public ArrayList<Integer> getSupportInY(int value){
+        ArrayList<Integer> support = new ArrayList<>();
+        for(int[] cable : table_){
+            if(cable[0] == value){
+                support.add(cable[1]);
+            }
+        }
+        return support;
     }
 
     // implement in child classes with AC strategy

@@ -11,7 +11,7 @@ public class DoubleLinkedList {
         deleted = new Stack();
     }
 
-    public ArrayList toArray() {
+    public ArrayList<Integer> toArray() {
         ArrayList summary = new ArrayList();
         if (first == null) {
             return summary;
@@ -26,6 +26,10 @@ public class DoubleLinkedList {
         }
 
         return summary;
+    }
+
+    public boolean isEmpty(){
+        return first == null;
     }
 
     public int getFirstValue() {
@@ -79,6 +83,11 @@ public class DoubleLinkedList {
 
         // base case : a different prev and next
         deleted.push(elem);
+
+        if(elem.getNext() == elem){
+            first = null;
+        }
+
         elem.getPrev().setNext(elem.getNext());
         elem.getNext().setPrev(elem.getPrev());
         return true;
@@ -93,8 +102,8 @@ public class DoubleLinkedList {
         put.getNext().setPrev(put);
 
         if (put.isFirst()) {
-            first.setFirst(false);
             first = put;
+            first.setFirst(false);
         }
         return true;
     }

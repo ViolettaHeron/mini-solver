@@ -2,6 +2,7 @@ import java.util.ArrayList;
 
 public class Variable {
     private String identifiant;
+
     private DoubleLinkedList domain_;
     // private int delta_; // (le delta n'est-il pas dans la dll du domaine ?) Ici on met le delta : todo déterminer si le delta est utile et son type
     private Propagation p_;// Définir ici un pointeur vers la fonction de propagation : quand une var est modifiee on l'ajoute dans la queue si elle n'y est pas deja
@@ -22,6 +23,14 @@ public class Variable {
         }
     }
 
+    public String getIdentifiant() {
+        return identifiant;
+    }
+
+    public DoubleLinkedList getDomain_() {
+        return domain_;
+    }
+
     public boolean is_in_domain(int a) {
         // retourne vraie si a est dans le domaine et faux sinon
         return domain_.findInDDL(a) != null;
@@ -34,7 +43,7 @@ public class Variable {
             add_to_delta(a); // on ajoute a dans le delta de la variable
             p_.add_to_queue(this);
         }
-        return is_delta_empty();
+        return domain_.isEmpty();
     }
 
     public void add_to_delta(int a) {
@@ -45,7 +54,7 @@ public class Variable {
         }
     }
 
-    // retourne vraie si le delta est vide et faux sinon
+    // retourne vrai si le delta est vide et faux sinon
     public boolean is_delta_empty() {
         return !domain_.areThereDeletedElements();
     }
@@ -59,7 +68,7 @@ public class Variable {
         this.p_ = propagation;
     }
 
-    public String toString(){
+    public String toString() {
         return identifiant + " | domain: " + domain_.toString();
     }
 }

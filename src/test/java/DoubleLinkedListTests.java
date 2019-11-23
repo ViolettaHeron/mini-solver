@@ -94,6 +94,8 @@ public class DoubleLinkedListTests {
         } catch (Exception e) {
             fail(e.getMessage());
         }
+        assertTrue(dll.isEmpty());
+
         dll.putBackAll();
 
         assertEquals(1, dll.getFirstValue(), "1 should be the first element");
